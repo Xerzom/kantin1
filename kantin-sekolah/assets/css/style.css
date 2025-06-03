@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* About Section */
+.about-section img {
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Menu Section */
+.menu-section .card {
+    transition: transform 0.3s;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section .card:hover {
+    transform: translateY(-10px);
+}
+
+.menu-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Order Section */
+.order-section .card-header {
+    font-weight: bold;
+}
+
+.order-section .form-check-label {
+    width: 100%;
+}
+
+/* Contact Section */
+.contact-section textarea {
+    resize: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+}
